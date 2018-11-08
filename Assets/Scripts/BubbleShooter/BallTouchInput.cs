@@ -8,6 +8,7 @@ public class BallTouchInput : MonoBehaviour {
     public RectTransform canvasTransform;
     public Bubble ball;
     public GameObject ballPrefab;
+    public float startDistance = .5f;
     Vector3 startPosition;
     Vector2 direction;
     bool inputStarted = false;
@@ -28,10 +29,13 @@ public class BallTouchInput : MonoBehaviour {
                 startpos.z = -10f;
                 startPosition = Camera.main.ScreenToWorldPoint(startpos);
                 startPosition.z = 0f;
-                line.SetPosition(0, startPosition);
-                line.SetPosition(1, startPosition);
-                Debug.Log("Touch Began at Pos: " + startPosition);
-                inputStarted = true;
+                if (Vector3.Distance(new Vector3(ball.transform.position.x, ball.transform.position.y, 0f), startPosition) <= startDistance)
+                {
+                    line.SetPosition(0, startPosition);
+                    line.SetPosition(1, startPosition);
+                    Debug.Log("Touch Began at Pos: " + startPosition);
+                    inputStarted = true;
+                }
             }
             if (inputStarted)
             {
