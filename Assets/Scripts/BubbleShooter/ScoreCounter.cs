@@ -21,6 +21,7 @@ public class ScoreCounter : MonoBehaviour
     public void IncreaseScore(int amount)
     {
         score += amount;
+        UpdateScoreboard();
     }
 
     private void UpdateScoreboard()

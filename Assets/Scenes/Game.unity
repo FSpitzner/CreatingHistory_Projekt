@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -864,6 +864,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1326386855407544, guid: 99095d7a0d443064eb71d8f009cade88, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99095d7a0d443064eb71d8f009cade88, type: 2}
   m_IsPrefabAsset: 0
@@ -1008,7 +1012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &429400502
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1059,7 +1063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 2
-  points: 0
+  points: 10
 --- !u!61 &429400505
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1981,6 +1985,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1513541424843038, guid: ddb2afbba5ef1dd4ca39a0e7599b65e6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddb2afbba5ef1dd4ca39a0e7599b65e6, type: 2}
   m_IsPrefabAsset: 0
@@ -2849,7 +2857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1008649888
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2900,7 +2908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  points: 0
+  points: 10
 --- !u!61 &1008649891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3681,7 +3689,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -3925,7 +3933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1338357417
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3976,7 +3984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 2
-  points: 0
+  points: 10
 --- !u!61 &1338357420
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4132,6 +4140,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816994851739574, guid: 001170eaef9650942ac9def07263beb6, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 001170eaef9650942ac9def07263beb6, type: 2}
@@ -4311,6 +4323,11 @@ Prefab:
         type: 2}
       propertyPath: m_Color.g
       value: 0.67058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114888622827089568, guid: c50543e073f112f47a31c371d558ee40,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c50543e073f112f47a31c371d558ee40, type: 2}
@@ -4803,10 +4820,10 @@ MonoBehaviour:
   - {fileID: 1513541424843038, guid: ddb2afbba5ef1dd4ca39a0e7599b65e6, type: 2}
   - {fileID: 1816994851739574, guid: 001170eaef9650942ac9def07263beb6, type: 2}
   - {fileID: 1326386855407544, guid: 99095d7a0d443064eb71d8f009cade88, type: 2}
-  gridStart: {x: -200, y: 350}
+  gridStart: {x: -200, y: 450}
   horizontalDistanceBetweenLeafs: 100
   verticalDistanceBetweenLeafs: 100
-  rows: 5
+  rows: 6
   columns: 5
   defaultShotsLeft: 3
   shotsLeft: 3
@@ -5038,7 +5055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1788260209
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5089,7 +5106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 0
-  points: 0
+  points: 10
 --- !u!61 &1788260212
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5521,7 +5538,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1851309230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5572,7 +5589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 2
-  points: 0
+  points: 10
 --- !u!61 &1851309233
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5823,6 +5840,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303022703623002, guid: 6cb91b35198bb7f47ad5b810e5c9ac00, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cb91b35198bb7f47ad5b810e5c9ac00, type: 2}
@@ -6221,7 +6242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2136335022
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6272,7 +6293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: 1
-  points: 0
+  points: 10
 --- !u!61 &2136335025
 BoxCollider2D:
   m_ObjectHideFlags: 0

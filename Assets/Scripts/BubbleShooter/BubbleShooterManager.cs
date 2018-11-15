@@ -33,6 +33,14 @@ public class BubbleShooterManager : MonoBehaviour {
         }
     }
 
+    private void Start()
+    {
+        PopulateRow(0, false);
+        PopulateRow(0, false);
+        PopulateRow(0, false);
+        PopulateRow(0, false);
+    }
+
     /// <summary>
     /// Populates a given Row with Random Leafes.
     /// Starting with 0 at the top increasing downwards.
@@ -68,7 +76,7 @@ public class BubbleShooterManager : MonoBehaviour {
                         {
                             leafs[i][j] = leafs[i - 1][j];
                             RectTransform trans = leafs[i][j].GetComponent<RectTransform>();
-                            leafs[i][j].GetComponent<RectTransform>().position = new Vector2(trans.position.x + verticalDistanceBetweenLeafs, trans.position.y);
+                            trans.position = new Vector2(trans.position.x, trans.position.y - (verticalDistanceBetweenLeafs * canvasTransform.localScale.y));
                         }
                         else
                         {
@@ -84,7 +92,8 @@ public class BubbleShooterManager : MonoBehaviour {
             if (number < leafPrefabs.Length)
             {
                 GameObject leafToSpawn = leafPrefabs[number];
-                leafs[rowNumber][i] = Instantiate(leafToSpawn, new Vector2(gridStart.x + (horizontalDistanceBetweenLeafs * i), gridStart.y + (verticalDistanceBetweenLeafs * rowNumber)), Quaternion.identity, transform);
+                leafs[rowNumber][i] = Instantiate(leafToSpawn, new Vector2(0, 0), Quaternion.identity, transform);
+                leafs[rowNumber][i].GetComponent<RectTransform>().position = new Vector3((gridStart.x + (horizontalDistanceBetweenLeafs * i)) * canvasTransform.localScale.x, (gridStart.y + (verticalDistanceBetweenLeafs * rowNumber)) * canvasTransform.localScale.y, 0);
             }
             else
             {
@@ -101,9 +110,9 @@ public class BubbleShooterManager : MonoBehaviour {
     public bool[] GetRemainingColors()
     {
         bool[] colors = new bool[4];
-        for(int i = 0; i < columns; i++)
+        for(int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < rows; j++)
+            for(int j = 0; j < columns; j++)
             {
                 if (leafs[i][j] != null)
                 {
