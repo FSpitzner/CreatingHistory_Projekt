@@ -393,7 +393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &60115919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2347,13 +2347,14 @@ GameObject:
   - component: {fileID: 889913812}
   - component: {fileID: 889913811}
   - component: {fileID: 889913814}
+  - component: {fileID: 889913815}
   m_Layer: 5
   m_Name: Dolmengoettin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &889913811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2425,6 +2426,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &889913815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889913810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd9ec624ee1a264dace0fb452092d4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui: {fileID: 1183874763}
+  border: {fileID: 587655442}
 --- !u!1 &904393971
 GameObject:
   m_ObjectHideFlags: 0
@@ -4893,8 +4907,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 43
-  m_fontSizeBase: 43
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4934,10 +4948,10 @@ MonoBehaviour:
   m_margin: {x: -25.582943, y: 18.0713, z: 89.26285, w: 22.367107}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 232
+    characterCount: 246
     spriteCount: 0
-    spaceCount: 39
-    wordCount: 40
+    spaceCount: 41
+    wordCount: 42
     linkCount: 0
     lineCount: 4
     pageCount: 1
