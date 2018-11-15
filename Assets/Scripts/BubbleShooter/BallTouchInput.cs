@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BubbleShooterManager))]
 public class BallTouchInput : MonoBehaviour {
 
     public LineRenderer line;
@@ -13,13 +14,33 @@ public class BallTouchInput : MonoBehaviour {
     Vector2 direction;
     bool inputStarted = false;
     bool onTheWay = false;
+    private BubbleShooterManager manager;
+
+    private void Start()
+    {
+        manager = GetComponent<BubbleShooterManager>();
+    }
 
     private void Update()
     {
         if (ball == null)
         {
             onTheWay = false;
-            ball = Instantiate(ballPrefab, transform).GetComponent<Bubble>().CreateNewRandom();
+            bool[] remainingColors = manager.GetRemainingColors();
+            bool colorsLeft = false;
+            for(int i = 0; i < remainingColors.Length; i++)
+            {
+                if (remainingColors[i])
+                    colorsLeft = true;
+            }
+            if (colorsLeft)
+            {
+                ball = Instantiate(ballPrefab, transform).GetComponent<Bubble>().CreateNewRandom(remainingColors);
+                manager.DecreaseShots();
+            }
+            else
+                manager.Win();
+
         }
         else if (!onTheWay)
         {
@@ -61,5 +82,10 @@ public class BallTouchInput : MonoBehaviour {
                 }
             }
         }
+    }
+
+    public void DestroyBall()
+    {
+        Destroy(ball.gameObject);
     }
 }

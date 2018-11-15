@@ -24,6 +24,7 @@ public class Bubble : MonoBehaviour
     [SerializeField] Color whiteColor;
     [SerializeField] Color yellowColor;
     // Private
+    private ScoreCounter scoreCounter;
     private Rigidbody2D rb;
     #endregion
 
@@ -42,7 +43,7 @@ public class Bubble : MonoBehaviour
     }
     private void Start () 
 	{
-        //rb.AddRelativeForce(new Vector2(0, 1) * power * BubbleShooterManager.instance.canvasTransform.localScale.y, ForceMode2D.Impulse);
+        scoreCounter = ScoreCounter.instance;
 	}
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -52,6 +53,7 @@ public class Bubble : MonoBehaviour
         {
             if(collision.collider.GetComponent<Leaf>().color == color)
             {
+                scoreCounter.IncreaseScore(collision.collider.GetComponent<Leaf>().points);
                 Destroy(collision.gameObject);
             }
         }
@@ -66,22 +68,34 @@ public class Bubble : MonoBehaviour
         rb.AddRelativeForce(direction * power * BubbleShooterManager.instance.canvasTransform.localScale.y, ForceMode2D.Impulse);
     }
 
-    public Bubble CreateNewRandom()
+    public Bubble CreateNewRandom(bool[] remainingColors)
     {
         color = (Leaf.Color)UnityEngine.Random.Range(0, Enum.GetValues(typeof(Leaf.Color)).Length);
         switch (color)
         {
-            case Leaf.Color.Green:
-                image.color = greenColor;
-                break;
             case Leaf.Color.Blue:
-                image.color = blueColor;
+                if (remainingColors[0])
+                    image.color = blueColor;
+                else
+                    return CreateNewRandom(remainingColors);
+                break;
+            case Leaf.Color.Green:
+                if (remainingColors[1])
+                    image.color = greenColor;
+                else
+                    return CreateNewRandom(remainingColors);
                 break;
             case Leaf.Color.White:
-                image.color = whiteColor;
+                if (remainingColors[2])
+                    image.color = whiteColor;
+                else
+                    return CreateNewRandom(remainingColors);
                 break;
             case Leaf.Color.Yellow:
-                image.color = yellowColor;
+                if (remainingColors[3])
+                    image.color = yellowColor;
+                else
+                    return CreateNewRandom(remainingColors);
                 break;
             default: break;
         }

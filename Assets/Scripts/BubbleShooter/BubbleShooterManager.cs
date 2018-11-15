@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BubbleShooterManager : MonoBehaviour {
 
@@ -13,6 +14,11 @@ public class BubbleShooterManager : MonoBehaviour {
     public float verticalDistanceBetweenLeafs;
     public int rows;
     public int columns;
+    public int defaultShotsLeft = 3;
+    public int shotsLeft = 3;
+    public Image[] shotsLeftUI;
+    public Sprite shotsLeftUIOn;
+    public Sprite shotsLeftUIOff;
 
     private void Awake()
     {
@@ -90,5 +96,63 @@ public class BubbleShooterManager : MonoBehaviour {
     public void GameOver()
     {
         Debug.Log("Game Over!");
+    }
+
+    public bool[] GetRemainingColors()
+    {
+        bool[] colors = new bool[4];
+        for(int i = 0; i < columns; i++)
+        {
+            for(int j = 0; j < rows; j++)
+            {
+                if (leafs[i][j] != null)
+                {
+                    switch (leafs[i][j].GetComponent<Leaf>().color)
+                    {
+                        case Leaf.Color.Blue:
+                            colors[0] = true;
+                            break;
+                        case Leaf.Color.Green:
+                            colors[1] = true;
+                            break;
+                        case Leaf.Color.White:
+                            colors[2] = true;
+                            break;
+                        case Leaf.Color.Yellow:
+                            colors[3] = true;
+                            break;
+                        default: break;
+                    }
+                }
+            }
+        }
+        return colors;
+    }
+
+    public void Win()
+    {
+
+    }
+
+    public void DecreaseShots()
+    {
+        shotsLeft--;
+        if (shotsLeft == 0)
+        {
+            shotsLeft = defaultShotsLeft;
+            PopulateRow(0, false);
+        }
+        if (shotsLeft > 0)
+            shotsLeftUI[0].sprite = shotsLeftUIOn;
+        else
+            shotsLeftUI[0].sprite = shotsLeftUIOff;
+        if (shotsLeft > 1)
+            shotsLeftUI[1].sprite = shotsLeftUIOn;
+        else
+            shotsLeftUI[1].sprite = shotsLeftUIOff;
+        if (shotsLeft > 2)
+            shotsLeftUI[2].sprite = shotsLeftUIOn;
+        else
+            shotsLeftUI[2].sprite = shotsLeftUIOff;
     }
 }
