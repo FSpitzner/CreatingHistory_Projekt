@@ -6,10 +6,12 @@ public class AnimationEnd : MonoBehaviour {
 
     public GameObject ui;
     public GameObject border;
+    public SceneController controller;
 
 	public void SetAnimationComplete()
     {
         ui.SetActive(true);
         border.SetActive(true);
+        controller.enabled = true;
     }
 }

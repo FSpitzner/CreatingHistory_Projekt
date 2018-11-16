@@ -393,7 +393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &60115919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2422,6 +2422,7 @@ GameObject:
   - component: {fileID: 876790875}
   - component: {fileID: 876790874}
   - component: {fileID: 876790878}
+  - component: {fileID: 876790879}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2532,6 +2533,20 @@ MonoBehaviour:
   karte: {fileID: 1041515197}
   museumAussen: {fileID: 1232923913}
   museumInnen: {fileID: 641045271}
+--- !u!114 &876790879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876790873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dbea2927e13ef7438b6d801a4d036c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapOptained: 0
+  tmpReveal: {fileID: 1831471827}
+  monologue: {fileID: 445269034}
 --- !u!1 &889913810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2544,13 +2559,14 @@ GameObject:
   - component: {fileID: 889913811}
   - component: {fileID: 889913814}
   - component: {fileID: 889913815}
+  - component: {fileID: 889913816}
   m_Layer: 5
   m_Name: Dolmengoettin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &889913811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2635,6 +2651,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ui: {fileID: 1183874763}
   border: {fileID: 587655442}
+  controller: {fileID: 889913816}
+--- !u!114 &889913816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 889913810}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 867f1e82716b8a64fb3cf9a24b5ed546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstMonologue: {fileID: 11400000, guid: 6779d1cad1020eb47b60bcaeb07cdcd7, type: 2}
 --- !u!1 &904393971
 GameObject:
   m_ObjectHideFlags: 0
@@ -3679,11 +3708,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -5357,6 +5386,8 @@ GameObject:
   - component: {fileID: 1831471829}
   - component: {fileID: 1831471828}
   - component: {fileID: 1831471827}
+  - component: {fileID: 1831471831}
+  - component: {fileID: 1831471830}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -5394,6 +5425,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 1831471828}
+  nextTrigger: {fileID: 1831471830}
+  deactivateTrigger: {fileID: 1831471831}
 --- !u!114 &1831471828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5518,6 +5551,88 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1831471825}
   m_CullTransparentMesh: 0
+--- !u!114 &1831471830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1831471825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1831471827}
+          m_MethodName: NextContent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1831471827}
+          m_MethodName: DisableNextTrigger
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
+--- !u!114 &1831471831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1831471825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1831471827}
+          m_MethodName: DisableDeactivateTrigger
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 445269034}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1851309229
 GameObject:
   m_ObjectHideFlags: 0

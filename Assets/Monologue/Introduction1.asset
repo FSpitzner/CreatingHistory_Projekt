@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
+  m_Name: Introduction1
+  m_EditorClassIdentifier: 
+  content: "Ist es schon Morgen? Nanu? Man habe ich lang geschlafen. \r\n[dreht sich
+    zum Spieler] Oh, wer bist du denn? Das ist aber unh\xF6flich von mir. Ich habe
+    mich Dir gar nicht vorgestellt! Ich bin Dolmia, der Geist der Dolmeng\xF6ttin
+    von Langeneichst\xE4dt.\r\n"
+  next: {fileID: 11400000, guid: b80df63f277782e43a8d5fb84a99a48c, type: 2}
