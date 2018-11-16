@@ -16,6 +16,7 @@ public class BubbleShooterManager : MonoBehaviour {
     public int columns;
     public int defaultShotsLeft = 3;
     public int shotsLeft = 3;
+    public int rowsOnStart = 3;
     public Image[] shotsLeftUI;
     public Sprite shotsLeftUIOn;
     public Sprite shotsLeftUIOff;
@@ -35,10 +36,10 @@ public class BubbleShooterManager : MonoBehaviour {
 
     private void Start()
     {
-        PopulateRow(0, false);
-        PopulateRow(0, false);
-        PopulateRow(0, false);
-        PopulateRow(0, false);
+        for(int i=0;i<rowsOnStart;i++)
+            PopulateRow(0, false);
+
+        GetComponent<BallTouchInput>().enabled = true;
     }
 
     /// <summary>

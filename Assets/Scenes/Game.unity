@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1320,12 +1320,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224275879554575080, guid: c50543e073f112f47a31c371d558ee40,
     type: 2}
   m_PrefabInternal: {fileID: 1517852841}
---- !u!114 &507638161 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114888622827089568, guid: c50543e073f112f47a31c371d558ee40,
-    type: 2}
-  m_PrefabInternal: {fileID: 1517852841}
-  m_Script: {fileID: 11500000, guid: 2c6c7f8150b6c6f479d825665a90e19e, type: 3}
 --- !u!1 &520679595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3689,7 +3683,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -4329,6 +4323,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1740102352275962, guid: c50543e073f112f47a31c371d558ee40, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c50543e073f112f47a31c371d558ee40, type: 2}
   m_IsPrefabAsset: 0
@@ -4827,6 +4825,7 @@ MonoBehaviour:
   columns: 5
   defaultShotsLeft: 3
   shotsLeft: 3
+  rowsOnStart: 3
   shotsLeftUI:
   - {fileID: 1307919974}
   - {fileID: 834193649}
@@ -4839,14 +4838,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1750382748}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71a1afe9d85b6064caeefa9a91c3bf8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   line: {fileID: 1750382756}
   canvasTransform: {fileID: 876790877}
-  ball: {fileID: 507638161}
+  ball: {fileID: 0}
   ballPrefab: {fileID: 1740102352275962, guid: c50543e073f112f47a31c371d558ee40, type: 2}
   startDistance: 0.3
 --- !u!120 &1750382756

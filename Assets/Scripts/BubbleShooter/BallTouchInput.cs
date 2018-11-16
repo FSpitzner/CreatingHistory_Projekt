@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(BubbleShooterManager))]
 public class BallTouchInput : MonoBehaviour {
@@ -19,6 +20,8 @@ public class BallTouchInput : MonoBehaviour {
     private void Start()
     {
         manager = GetComponent<BubbleShooterManager>();
+        ball = Instantiate(ballPrefab, transform).GetComponent<Bubble>().CreateNewRandom(manager.GetRemainingColors());
+        line.material.color = ball.GetComponent<Image>().color;
     }
 
     private void Update()
@@ -36,6 +39,7 @@ public class BallTouchInput : MonoBehaviour {
             if (colorsLeft)
             {
                 ball = Instantiate(ballPrefab, transform).GetComponent<Bubble>().CreateNewRandom(remainingColors);
+                line.material.color = ball.GetComponent<Image>().color;
                 manager.DecreaseShots();
             }
             else
