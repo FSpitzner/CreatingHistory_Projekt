@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class BubbleShooterManager : MonoBehaviour {
@@ -14,12 +15,16 @@ public class BubbleShooterManager : MonoBehaviour {
     public float verticalDistanceBetweenLeafs;
     public int rows;
     public int columns;
-    public int defaultShotsLeft = 3;
-    public int shotsLeft = 3;
+    public int defaultShotsLeft = 4;
+    public int shotsLeft = 4;
     public int rowsOnStart = 3;
     public Image[] shotsLeftUI;
     public Sprite shotsLeftUIOn;
     public Sprite shotsLeftUIOff;
+    public MonologueContent gameOverMonologue;
+    public GameEvent gameOverEvent;
+    public MonologueContent winMonologue;
+    public GameEvent winEvent;
 
     private void Awake()
     {
@@ -39,7 +44,7 @@ public class BubbleShooterManager : MonoBehaviour {
         for(int i=0;i<rowsOnStart;i++)
             PopulateRow(0, false);
 
-        GetComponent<BallTouchInput>().enabled = true;
+        //GetComponent<BallTouchInput>().enabled = true;
     }
 
     /// <summary>
@@ -105,6 +110,8 @@ public class BubbleShooterManager : MonoBehaviour {
 
     public void GameOver()
     {
+        if (gameOverMonologue != null && gameOverEvent != null)
+            LevelManager.instance.StartMonologue(gameOverMonologue, gameOverEvent);
         Debug.Log("Game Over!");
     }
 
@@ -141,7 +148,9 @@ public class BubbleShooterManager : MonoBehaviour {
 
     public void Win()
     {
-
+        if (winMonologue != null && winEvent != null)
+            LevelManager.instance.StartMonologue(winMonologue, winEvent);
+        Debug.Log("Win!");
     }
 
     public void DecreaseShots()
@@ -164,5 +173,9 @@ public class BubbleShooterManager : MonoBehaviour {
             shotsLeftUI[2].sprite = shotsLeftUIOn;
         else
             shotsLeftUI[2].sprite = shotsLeftUIOff;
+        if (shotsLeft > 4)
+            shotsLeftUI[3].sprite = shotsLeftUIOn;
+        else
+            shotsLeftUI[3].sprite = shotsLeftUIOff;
     }
 }

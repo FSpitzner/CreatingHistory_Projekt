@@ -25,4 +25,10 @@ public class LevelManager : MonoBehaviour
         monologue.SetActive(true);
         tmpReveal.RevealText(content);
     }
+
+    public void StartMonologue(MonologueContent content, GameEvent finishEvent)
+    {
+        monologue.SetActive(true);
+        tmpReveal.RevealText(content, finishEvent);
+    }
 }

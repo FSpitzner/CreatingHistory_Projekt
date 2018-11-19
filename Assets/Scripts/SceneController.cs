@@ -12,6 +12,9 @@ public class SceneController : MonoBehaviour
     // Serialized Fields
     [SerializeField] static bool firstEncounter = true;
     [SerializeField] MonologueContent firstMonologue;
+    [SerializeField] GameEvent firstMonologFinishEvent;
+    [SerializeField] GameObject backButton;
+    [SerializeField] bool showBackButtonOnSecEncounter;
 	// Private
 	
 	#endregion
@@ -27,8 +30,16 @@ public class SceneController : MonoBehaviour
 	#region Unity Event Functions
 	private void Start () 
 	{
-        firstEncounter = false;
-        StartMonologue(firstMonologue);
+        if (firstEncounter)
+        {
+            firstEncounter = false;
+            if (firstMonologue != null && firstMonologFinishEvent == null)
+                StartMonologue(firstMonologue);
+            if (firstMonologue != null && firstMonologFinishEvent != null)
+                StartMonologue(firstMonologue, firstMonologFinishEvent);
+        }
+        else if (showBackButtonOnSecEncounter)
+            backButton.SetActive(true);
 	}
 	#endregion
 	
@@ -38,6 +49,11 @@ public class SceneController : MonoBehaviour
     public void StartMonologue(MonologueContent content)
     {
         LevelManager.instance.StartMonologue(content);
+    }
+
+    public void StartMonologue(MonologueContent content, GameEvent finishEvent)
+    {
+        LevelManager.instance.StartMonologue(content, finishEvent);
     }
 	#endregion
 	
