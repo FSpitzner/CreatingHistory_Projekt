@@ -12,6 +12,7 @@ public class TMP_Reveal : MonoBehaviour {
     MonologueContent content;
     public EventTrigger nextTrigger;
     public EventTrigger deactivateTrigger;
+    public float revealSpeed = 0.05f;
 
     private GameEvent finishEvent = null;
 
@@ -30,7 +31,7 @@ public class TMP_Reveal : MonoBehaviour {
         if(visibleCount < totalVisibleCharacters)
         {
             counter += 1;
-            Invoke("Reveal", 0.05f);
+            Invoke("Reveal", revealSpeed);
         }
         else
         {
@@ -82,5 +83,14 @@ public class TMP_Reveal : MonoBehaviour {
             finishEvent.Raise();
             finishEvent = null;
         }
+    }
+
+    public void SpeedUpReveal()
+    {
+        revealSpeed = revealSpeed / 2;
+    }
+    public void SlowDownRevealSpeed()
+    {
+        revealSpeed = 0.05f;
     }
 }

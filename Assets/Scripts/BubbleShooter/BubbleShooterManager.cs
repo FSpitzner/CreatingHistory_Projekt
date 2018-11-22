@@ -173,9 +173,31 @@ public class BubbleShooterManager : MonoBehaviour {
             shotsLeftUI[2].sprite = shotsLeftUIOn;
         else
             shotsLeftUI[2].sprite = shotsLeftUIOff;
-        if (shotsLeft > 4)
+        if (shotsLeft > 3)
             shotsLeftUI[3].sprite = shotsLeftUIOn;
         else
             shotsLeftUI[3].sprite = shotsLeftUIOff;
+    }
+
+    public void Restart()
+    {
+        for(int i = 0; i < rows; i++)
+        {
+            for(int j = 0; j < columns; j++)
+            {
+                if(leafs[i][j] != null)
+                {
+                    Destroy(leafs[i][j]);
+                    leafs[i][j] = null;
+                }
+            }
+        }
+        for (int i = 0; i < rowsOnStart; i++)
+            PopulateRow(0, false);
+        shotsLeft = defaultShotsLeft;
+        for(int i = 0; i < shotsLeftUI.Length; i++)
+        {
+            shotsLeftUI[i].sprite = shotsLeftUIOn;
+        }
     }
 }

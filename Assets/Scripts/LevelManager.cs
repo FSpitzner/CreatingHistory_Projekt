@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// 
@@ -30,5 +31,10 @@ public class LevelManager : MonoBehaviour
     {
         monologue.SetActive(true);
         tmpReveal.RevealText(content, finishEvent);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
     }
 }
