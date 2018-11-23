@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: Grab_Grabbeigaben
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: das ist meine Statue. [Statue wird blau] Die Menschen
-    in der Jungsteinzeit haben mich gebeten Ihnen mit der Natur zu helfen. Unter mir
-    ist das Grab, auf das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen
-    auch Mutterg\xF6ttin genannt."
+  content: "[Grabbeigabe] Fr\xFCher haben die Menschen den Tod anders gesehen. Die
+    Toten sind in die Geisterwelt zu mir \xFCbergegangen. Die Grabbeigaben konnten
+    sie jedoch von der Welt der Lebenden in die der Toten mitnehmen."
   next: {fileID: 0}

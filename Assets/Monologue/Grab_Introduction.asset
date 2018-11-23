@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: Grab_Introduction
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: das ist meine Statue. [Statue wird blau] Die Menschen
-    in der Jungsteinzeit haben mich gebeten Ihnen mit der Natur zu helfen. Unter mir
-    ist das Grab, auf das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen
-    auch Mutterg\xF6ttin genannt."
+  content: "Wo sind denn alle hin? Jemand hat mein Grab aufgemacht und ich habe Nichts
+    gemerkt! Ich h\xE4tte aufwachen m\xFCssen und meine Toten und ihre Beigaben besch\xFCtzen
+    m\xFCssen! Jedoch kann ich Euch trotzdem etwas \xFCber das Grab erz\xE4hlen."
   next: {fileID: 0}

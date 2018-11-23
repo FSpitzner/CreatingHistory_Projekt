@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: IntroductionGrab1
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: das ist meine Statue. [Statue wird blau] Die Menschen
-    in der Jungsteinzeit haben mich gebeten Ihnen mit der Natur zu helfen. Unter mir
-    ist das Grab, auf das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen
-    auch Mutterg\xF6ttin genannt."
-  next: {fileID: 0}
+  content: "Komm, wir schauen uns mal um. Die Dinge zu denen ich Dir etwas erkl\xE4ren
+    kann, lass ich blau schimmern und bei den erkundeten Teilen dieses Ortes lasse
+    ich Blumen f\xFCr Dich wachsen."
+  next: {fileID: 11400000, guid: aa7311b8137d54ad4966d540a0ce6608, type: 2}

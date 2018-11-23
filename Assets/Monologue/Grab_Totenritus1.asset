@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: Grab_Totenritus1
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: das ist meine Statue. [Statue wird blau] Die Menschen
-    in der Jungsteinzeit haben mich gebeten Ihnen mit der Natur zu helfen. Unter mir
-    ist das Grab, auf das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen
-    auch Mutterg\xF6ttin genannt."
-  next: {fileID: 0}
+  content: '[Totenritus] Nachdem die Menschen gestorben sind, gab es schon damals
+    bestimmte Traditionen, um die Seele sicher in die Totenwelt zu geleiten. In der
+    Bernburger Kultur sah man den Tot als zweite Geburt in die Geisterwelt.'
+  next: {fileID: 11400000, guid: 4bdc4b1d4cf1644c58c2ddb62367b407, type: 2}

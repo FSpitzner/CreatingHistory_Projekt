@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: Grab_Totenritus2
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: das ist meine Statue. [Statue wird blau] Die Menschen
-    in der Jungsteinzeit haben mich gebeten Ihnen mit der Natur zu helfen. Unter mir
-    ist das Grab, auf das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen
-    auch Mutterg\xF6ttin genannt."
+  content: "Bei dem \xDCbertritt in die Geisterwelt halfen die hinterbliebenen Freunde
+    und Familie dem Verstorbenen. Sie verbrannten die sterblichen \xDCberreste, um
+    der Seele sich beim L\xF6sen vom K\xF6rper zu helfen, und legten die \xDCberreste
+    mit Beigaben danach in das Grab."
   next: {fileID: 0}
