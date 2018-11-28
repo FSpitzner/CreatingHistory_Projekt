@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Turm_Pfingstfest
   m_EditorClassIdentifier: 
-  content: 
+  content: '[Pfingstfest - Fenster?] Jedes Jahr am Pfingstsonntag kann man die Warte
+    sogar betreten und sich umschauen. Auch im September am Tag des offenen Denkmals
+    kannst Du vorbeischauen und mich und die Warte besuchen, um Fragen zu stellen.'
   next: {fileID: 0}

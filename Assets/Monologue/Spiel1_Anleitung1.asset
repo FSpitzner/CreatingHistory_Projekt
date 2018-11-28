@@ -9,7 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Spiel1_Introduction
+  m_Name: Spiel1_Anleitung1
   m_EditorClassIdentifier: 
-  content: 
-  next: {fileID: 0}
+  content: "Hier sieht es aber leer und traurig aus. Wir m\xFCssen mal ein paar Blumen
+    auf der Wiese wachsen lassen und alles bunter machen. Dem Ganzen hier etwas Leben
+    einhauchen."
+  next: {fileID: 11400000, guid: c093fe3515c4a4c07bf5e4d8fd6a8ce6, type: 2}

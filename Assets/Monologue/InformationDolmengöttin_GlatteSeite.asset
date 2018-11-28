@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "[glatte Seite] W\xE4hrend magischen Br\xE4uchen haben die Menschen die
     Seiten meines Menhirs angefasst. Eine Menhirstatue ist im Prinzip ein langer Stein,
-    der aufgestellt wurde. Durch die Br\xE4uche haben die Menschen mich gebeten die
+    der aufgestellt wurde. Durch die Br\xE4uche haben die Menschen mich gebeten, die
     Natur fruchtbarer zu machen und somit mehr Getreide und Fr\xFCchte wachsen zu
     lassen."
   next: {fileID: 0}
