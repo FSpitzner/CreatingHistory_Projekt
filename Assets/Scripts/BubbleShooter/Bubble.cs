@@ -24,7 +24,6 @@ public class Bubble : MonoBehaviour
     [SerializeField] Color whiteColor;
     [SerializeField] Color yellowColor;
     // Private
-    private ScoreCounter scoreCounter;
     private Rigidbody2D rb;
     #endregion
 
@@ -41,19 +40,14 @@ public class Bubble : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    private void Start () 
-	{
-        scoreCounter = ScoreCounter.instance;
-	}
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collision!!!");
+        //Debug.Log("Collision!!!");
         if(collision.collider.tag == "Leaf")
         {
             if(collision.collider.GetComponent<Leaf>().color == color)
             {
-                scoreCounter.IncreaseScore(collision.collider.GetComponent<Leaf>().points);
                 Destroy(collision.gameObject);
             }
         }
