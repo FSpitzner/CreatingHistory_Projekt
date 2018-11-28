@@ -11,4 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: Dolmen
   m_EditorClassIdentifier: 
-  content: 
+  content: "Dolmen sind gro\xDFe Steins\xE4ulen, die von Menschen in der Stein- und
+    Bronzezeit aufgestellt wurden. H\xE4ufig stehen mehrere Dolmen nebeneinander,
+    manchmal wurden sie sogar \xFCbereinander gestapelt. Bis heute sind sich Wissenschaftler
+    nicht einig, warum diese Dolmen errichtet wurden. Einige sagen, dass Menschen
+    damals dachten, dass in den Steinen G\xF6tter wohnen. Andere Wissenschaftler glauben,
+    dass die Dolmen die Orte f\xFCr Grabst\xE4tten anzeigen sollten."

@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: Landesmuseum
   m_EditorClassIdentifier: 
-  content: 
+  content: "Das Landesmuseum f\xFCr Vorgeschichte ist ein gro\xDFes Museum in Halle.
+    Viele von Arch\xE4ologen ausgegrabene Funde werden dort ausgestellt. Auch die
+    Dolmeng\xF6ttin und die Himmelsscheibe von Nebra. Insgesamt zeigt das Museum \xFCber
+    15 Millionen Funde."

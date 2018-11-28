@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: "Eichst\xE4dter Warte"
   m_EditorClassIdentifier: 
-  content: 
+  content: "Die Eichst\xE4dter Warte ist ein Wachturm, der neben der Dolmeng\xF6ttin
+    von Langeneichst\xE4dt steht. Er wurde vor \xFCber tausend Jahren von K\xF6nig
+    Heinrich I. erbaut. Der Turm ist 15 Meter hoch, die T\xFCr liegt 8 Meter \xFCber
+    dem Boden - damit wurde verhindert, dass Angreifer ohne Leiter in den Turm kamen."

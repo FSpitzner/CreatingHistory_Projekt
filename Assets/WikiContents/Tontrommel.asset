@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: Tontrommel
   m_EditorClassIdentifier: 
-  content: 
+  content: "Auch in der Bronzezeit wurde bereits Musik gemacht. \xDCber 200 Tontrommeln
+    aus der Zeit wurden bisher in Deutschland entdeckt. Die Trommeln sehen aus wie
+    zwei aufeinander gestellte Trichter und waren fr\xFCher mit Fell bespannt. Getrommelt
+    wurde f\xFCr religi\xF6se Rituale oder einfach aus Spa\xDF."

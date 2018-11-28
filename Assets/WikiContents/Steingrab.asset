@@ -11,4 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: Steingrab
   m_EditorClassIdentifier: 
-  content: 
+  content: "In Steingr\xE4bern haben Menschen in der Fr\xFChzeit ihre Toten beigesetzt.
+    Durch die Grabst\xE4tte sollte der Verstorbene wie durch eine T\xFCr in das Jenseits
+    gehen. Deswegen wurden h\xE4ufig Waffen und Trinkgef\xE4\xDFe in die Gr\xE4ber
+    gelegt - sie sollten dem Toten auf seinem Weg helfen."

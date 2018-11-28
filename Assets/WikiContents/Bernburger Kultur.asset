@@ -11,4 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
   m_Name: Bernburger Kultur
   m_EditorClassIdentifier: 
-  content: 
+  content: "Vor \xFCber 5000 Jahren war Sachsen-Anhalt bereits von verschiedenen St\xE4mmen
+    besiedelt. Da man nicht mehr wei\xDF, wie sich diese St\xE4mme selbst genannt
+    haben, haben Forscher sie nach den Fundorten ihrer alten Siedlungen benannt. Die
+    Menschen der Bernburger Kultur haben die Dolmeng\xF6ttin aufgebaut. Auf ihrem
+    Siedlungsgebiet hat man sehr sch\xF6n gestaltete Tont\xF6pfe gefunden. Auch Tontrommeln
+    und Streit\xE4xte wurden entdeckt."
