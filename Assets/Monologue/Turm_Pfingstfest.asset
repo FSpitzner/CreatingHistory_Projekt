@@ -14,4 +14,4 @@ MonoBehaviour:
   content: '[Pfingstfest - Fenster?] Jedes Jahr am Pfingstsonntag kann man die Warte
     sogar betreten und sich umschauen. Auch im September am Tag des offenen Denkmals
     kannst Du vorbeischauen und mich und die Warte besuchen, um Fragen zu stellen.'
-  next: {fileID: 0}
+  next: {fileID: 11400000, guid: 3ba6d0ee28c9f4e22994feb633d02ec8, type: 2}

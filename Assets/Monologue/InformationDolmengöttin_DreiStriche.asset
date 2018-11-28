@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: "InformationDolmengo\u0308ttin_DreiStriche"
+  m_Name: "InformationDolmeng\xF6ttin_DreiStriche"
   m_EditorClassIdentifier: 
   content: "[drei Striche] Auch andere Dolmeng\xF6ttinnen haben dreier Symbole. Viele
     tragen drei Ketten und ich habe eine Bemalung von drei Strichen im Gesicht. Wusstest

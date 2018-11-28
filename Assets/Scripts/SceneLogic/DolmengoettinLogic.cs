@@ -17,16 +17,19 @@ public class DolmengoettinLogic : MonoBehaviour
     public void SetAxt()
     {
         hasAxt = true;
+        CheckProgress();
     }
 
     public void SetStriche()
     {
         hasStriche = true;
+        CheckProgress();
     }
 
     public void SetMenhir()
     {
         hasMenhir = true;
+        CheckProgress();
     }
 
     public void CheckProgress()

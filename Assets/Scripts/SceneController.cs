@@ -10,7 +10,7 @@ public class SceneController : MonoBehaviour
 
     #region Variable Declarations
     // Serialized Fields
-    [SerializeField] static bool firstEncounter = true;
+    bool firstEncounter = true;
     [SerializeField] MonologueContent firstMonologue;
     [SerializeField] GameEvent firstMonologFinishEvent;
     [SerializeField] GameObject backButton;
