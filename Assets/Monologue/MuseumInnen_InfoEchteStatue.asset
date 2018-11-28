@@ -9,7 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: MuseumInnen_
+  m_Name: MuseumInnen_InfoEchteStatue
   m_EditorClassIdentifier: 
-  content: 
+  content: "[Statue] Das war aber eine lange Reise. Endlich bin ich hier und habe
+    meine echte Statue gefunden. Wusstest Du, dass ich 1,76 Meter gro\xDF und aus
+    Sandstein bestehe. Seh ich nicht h\xFCbsch aus?"
   next: {fileID: 0}

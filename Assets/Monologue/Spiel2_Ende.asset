@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Spiel2_Ende
   m_EditorClassIdentifier: 
-  content: 
+  content: "Danke f\xFCr Deine Hilfe. Ich lege die Vase in das Grab, damit die Toten
+    diese in der Geisterwelt nutzen k\xF6nnen."
   next: {fileID: 0}

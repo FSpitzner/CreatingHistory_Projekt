@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: IntroductionGrab1
   m_EditorClassIdentifier: 
-  content: "Komm, wir schauen uns mal um. Die Dinge zu denen ich Dir etwas erkl\xE4ren
+  content: "Komm, wir schauen uns mal um. Die Dinge, zu denen ich Dir etwas erkl\xE4ren
     kann, lass ich blau schimmern und bei den erkundeten Teilen dieses Ortes lasse
     ich Blumen f\xFCr Dich wachsen."
   next: {fileID: 11400000, guid: aa7311b8137d54ad4966d540a0ce6608, type: 2}

@@ -9,7 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Quiz_RichtigeAntowrten
+  m_Name: Quiz_RichtigeAntworten
   m_EditorClassIdentifier: 
-  content: 
+  content: Super, Du hast alles mitbekommen! Das hast Du gut gemacht, dann kann ich
+    endlich nach Hause gehen und wieder schlafen. Es war wirklich toll Dich kennenzulernen.
   next: {fileID: 0}

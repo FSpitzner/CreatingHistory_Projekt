@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Spiel1_Anleitung2
   m_EditorClassIdentifier: 
-  content: 
+  content: Ich lasse jetzt Blumenknospen auf der Wiese erscheinen und wir lassen dann
+    die Blumen zusammenwachsen, wenn Du die Knospe antippst.
   next: {fileID: 0}

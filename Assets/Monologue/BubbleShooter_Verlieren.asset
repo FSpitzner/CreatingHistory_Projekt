@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: BubbleShooter_Verlieren
   m_EditorClassIdentifier: 
-  content: 
+  content: Verdammt der Turm ist noch nicht frei. Versuch es nochmal, ich glaube an
+    Dich!
   next: {fileID: 0}

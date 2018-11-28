@@ -9,7 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: BubbleShooter_Anleitung
+  m_Name: BubbleShooter_Anleitung1
   m_EditorClassIdentifier: 
-  content: 
-  next: {fileID: 0}
+  content: "Damit wir den Turm erkunden k\xF6nnen, m\xFCssen wir hier erst etwas aufr\xE4umen.
+    Daf\xFCr m\xFCssen wir mit farbigen B\xE4llen schie\xDFen und die Efeubl\xE4tter
+    der selben Farbe kaputt machen."
+  next: {fileID: 11400000, guid: 013458b322a2642b2bd01f9d9fd2e5fd, type: 2}

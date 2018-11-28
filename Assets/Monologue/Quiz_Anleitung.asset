@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Quiz_Anleitung
   m_EditorClassIdentifier: 
-  content: 
+  content: "Damit ich wieder in die Geisterwelt gehen und dort nach dem Rechten sehen
+    kann, muss ich Dir ein paar Fragen stellen. Einfach nur damit ich sichergehen
+    kann, dass Du alles verstanden hast, was ich Dir erz\xE4hlt habe."
   next: {fileID: 0}

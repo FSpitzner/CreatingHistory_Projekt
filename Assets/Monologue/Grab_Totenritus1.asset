@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: '[Totenritus] Nachdem die Menschen gestorben sind, gab es schon damals
     bestimmte Traditionen, um die Seele sicher in die Totenwelt zu geleiten. In der
-    Bernburger Kultur sah man den Tot als zweite Geburt in die Geisterwelt.'
+    Bernburger Kultur sah man den Tot als zweite Geburt in die Geisterwelt an.'
   next: {fileID: 11400000, guid: 4bdc4b1d4cf1644c58c2ddb62367b407, type: 2}

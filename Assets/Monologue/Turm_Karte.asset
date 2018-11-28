@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Turm_Karte
   m_EditorClassIdentifier: 
-  content: 
+  content: "Karte, wenn die anderen beiden eingesammelt wurden] Lass uns mal reinschauen!
+    Vielleicht k\xF6nnen wir endlich meine echte Statue finden."
   next: {fileID: 0}
