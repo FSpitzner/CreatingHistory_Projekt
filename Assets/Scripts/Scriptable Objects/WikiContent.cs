@@ -6,4 +6,11 @@ using UnityEngine;
 public class WikiContent : ScriptableObject {
     [TextArea(2,10)]
     public string content;
+
+    public string GetContent()
+    {
+        string con = content.Replace('#', '\n');
+        con = con.Replace('~', '\t');
+        return con;
+    }
 }

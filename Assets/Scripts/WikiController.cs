@@ -9,6 +9,6 @@ public class WikiController : MonoBehaviour {
 
     public void SetContent(WikiContent wikiContent)
     {
-        textfield.text = wikiContent.content;
+        textfield.text = wikiContent.GetContent();
     }
 }
