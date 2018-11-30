@@ -75,7 +75,7 @@ public class QuizController : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Lost");
+            LevelManager.instance.StartMonologue(quizLost, quizLostEvent);
         }
     }
 }
