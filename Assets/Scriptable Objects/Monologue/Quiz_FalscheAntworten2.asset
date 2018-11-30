@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Quiz_FalscheAntworten2
   m_EditorClassIdentifier: 
-  content: 
+  content: Dort habe ich Dir alle wichtigen Informationen zum Nachlesen aufgeschrieben.
+    Um nochmal ins Quiz zu kommen, musst Du auf das Fragezeichen tippen.
   next: {fileID: 0}

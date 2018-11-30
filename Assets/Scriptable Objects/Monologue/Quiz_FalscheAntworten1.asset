@@ -9,10 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Quiz_FalscheAntworten
+  m_Name: Quiz_FalscheAntworten1
   m_EditorClassIdentifier: 
-  content: Oh man, da scheinst Du aber etwas Falsch verstanden, zu haben. Vielleicht
-    hilft es Dir, wenn Du Dir das Wiki anschaust. Dort habe ich Dir alle wichtigen
-    Informationen zum Nachlesen aufgeschrieben. Um nochmal ins Quiz zu kommen, musst
-    Du auf das Fragezeichen tippen.
-  next: {fileID: 0}
+  content: 'Oh man, da scheinst Du aber etwas falsch verstanden, zu haben. Vielleicht
+    hilft es Dir, wenn Du Dir das Wiki anschaust. '
+  next: {fileID: 11400000, guid: 9a9bee812dc1d1745993a35d45d28c03, type: 2}
