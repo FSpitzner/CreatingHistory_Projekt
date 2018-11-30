@@ -47,7 +47,8 @@ public class TMP_Reveal : MonoBehaviour {
         this.content = content;
         textMesh.text = content.content;
         counter = 0;
-        totalVisibleCharacters = textMesh.textInfo.characterCount;
+        totalVisibleCharacters = content.content.Length;
+        Debug.Log("Character Count: " + textMesh.textInfo.characterCount + " | Length: " + content.content.Length);
         Reveal();
     }
 
@@ -57,7 +58,8 @@ public class TMP_Reveal : MonoBehaviour {
         this.content = content;
         textMesh.text = content.content;
         counter = 0;
-        totalVisibleCharacters = textMesh.textInfo.characterCount;
+        totalVisibleCharacters = content.content.Length;
+        Debug.Log("Character Count: " + textMesh.textInfo.characterCount + " | Length: " + content.content.Length);
         Reveal();
     }
 

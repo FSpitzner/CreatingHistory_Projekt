@@ -11,7 +11,6 @@ public class QuizController : MonoBehaviour {
     public TextMeshProUGUI answer1ButtonLabel;
     public TextMeshProUGUI answer2ButtonLabel;
     public TextMeshProUGUI answer3ButtonLabel;
-    public TextMeshProUGUI answer4ButtonLabel;
     public Question[] questions;
     [Range(0, 1)]
     public float correctAnswersPercentNeeded;
