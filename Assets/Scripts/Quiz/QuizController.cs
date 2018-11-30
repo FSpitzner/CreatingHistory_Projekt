@@ -17,6 +17,7 @@ public class QuizController : MonoBehaviour {
     public float correctAnswersPercentNeeded;
     [Space]
     [Header("General Settings")]
+    public MonologueContent quizIntro;
     public MonologueContent quizWon;
     public GameEvent quizWonEvent;
     public MonologueContent quizLost;
@@ -28,13 +29,14 @@ public class QuizController : MonoBehaviour {
     {
         if (questions.Length != 0)
         {
+            LevelManager.instance.StartMonologue(quizIntro);
             answers = new bool[questions.Length];
             Question question = questions[0];
             questionLabel.text = question.GetQuestion();
-            answer1ButtonLabel.text = question.answer1;
-            answer2ButtonLabel.text = question.answer2;
-            answer3ButtonLabel.text = question.answer3;
-            answer4ButtonLabel.text = question.answer4;
+            answer1ButtonLabel.text = question.GetAnswer(1);
+            answer2ButtonLabel.text = question.GetAnswer(2);
+            answer3ButtonLabel.text = question.GetAnswer(3);
+            answer4ButtonLabel.text = question.GetAnswer(4);
         }
     }
 
@@ -48,10 +50,10 @@ public class QuizController : MonoBehaviour {
         currentQuestion += 1;
         Question nextQuestion = questions[currentQuestion];
         questionLabel.text = nextQuestion.GetQuestion();
-        answer1ButtonLabel.text = nextQuestion.answer1;
-        answer2ButtonLabel.text = nextQuestion.answer2;
-        answer3ButtonLabel.text = nextQuestion.answer3;
-        answer4ButtonLabel.text = nextQuestion.answer4;
+        answer1ButtonLabel.text = nextQuestion.GetAnswer(1);
+        answer2ButtonLabel.text = nextQuestion.GetAnswer(2);
+        answer3ButtonLabel.text = nextQuestion.GetAnswer(3);
+        answer4ButtonLabel.text = nextQuestion.GetAnswer(4);
     }
 
     public void AnswerGiven(int buttonNumber)

@@ -15,6 +15,7 @@ public class SceneController : MonoBehaviour
     [SerializeField] GameEvent firstMonologFinishEvent;
     [SerializeField] GameObject backButton;
     [SerializeField] bool showBackButtonOnSecEncounter;
+    [SerializeField] float startDelay;
 	// Private
 	
 	#endregion
@@ -28,18 +29,9 @@ public class SceneController : MonoBehaviour
 	
 	
 	#region Unity Event Functions
-	private void Start () 
+	private void OnEnable () 
 	{
-        if (firstEncounter)
-        {
-            firstEncounter = false;
-            if (firstMonologue != null && firstMonologFinishEvent == null)
-                StartMonologue(firstMonologue);
-            if (firstMonologue != null && firstMonologFinishEvent != null)
-                StartMonologue(firstMonologue, firstMonologFinishEvent);
-        }
-        else if (showBackButtonOnSecEncounter)
-            backButton.SetActive(true);
+        Invoke("DoStartShit", startDelay);
 	}
 	#endregion
 	
@@ -60,7 +52,22 @@ public class SceneController : MonoBehaviour
 	
 	
 	#region Private Functions
-
+    private void DoStartShit()
+    {
+        if (firstEncounter)
+        {
+            firstEncounter = false;
+            if (firstMonologue != null && firstMonologFinishEvent == null)
+                StartMonologue(firstMonologue);
+            if (firstMonologue != null && firstMonologFinishEvent != null)
+                StartMonologue(firstMonologue, firstMonologFinishEvent);
+        }
+        else if (showBackButtonOnSecEncounter)
+        {
+            backButton.SetActive(true);
+            Debug.Log("Showing back button!");
+        }
+    }
 	#endregion
 	
 	

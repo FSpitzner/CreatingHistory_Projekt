@@ -1,17 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AnimationEnd : MonoBehaviour {
 
-    public GameObject ui;
-    public GameObject border;
-    public SceneController controller;
+    public UnityEvent response;
 
 	public void SetAnimationComplete()
     {
-        ui.SetActive(true);
-        border.SetActive(true);
-        controller.enabled = true;
+        response.Invoke();
     }
 }
