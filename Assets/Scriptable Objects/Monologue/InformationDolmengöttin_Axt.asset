@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: "InformationDolmeng\xF6ttin_Axt"
   m_EditorClassIdentifier: 
-  content: "[Axt]Meine Axt stellt die St\xE4rke des Mannes dar. Ich verbinde die dadurch
-    die m\xE4nnliche Seite der Menschen mit der weiblichen."
+  content: "Meine Axt stellt die St\xE4rke des Mannes dar. Ich verbinde dadurch die
+    m\xE4nnliche Seite der Menschen mit der weiblichen."
   next: {fileID: 0}

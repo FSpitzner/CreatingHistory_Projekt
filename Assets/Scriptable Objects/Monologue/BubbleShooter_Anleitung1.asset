@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "Damit wir den Turm erkunden k\xF6nnen, m\xFCssen wir hier erst etwas aufr\xE4umen.
     Daf\xFCr m\xFCssen wir mit farbigen B\xE4llen schie\xDFen und die Efeubl\xE4tter
-    der selben Farbe kaputt machen."
+    derselben Farbe kaputtmachen."
   next: {fileID: 11400000, guid: 013458b322a2642b2bd01f9d9fd2e5fd, type: 2}

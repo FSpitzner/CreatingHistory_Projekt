@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: IntroductionGrab2
   m_EditorClassIdentifier: 
   content: Der Turm hier ist neu, aber ich sorge mich um meine Menschen. Wir sollten
-    zuerst zum Grab gehen und sehen, ob dort noch alles in Ordnung ist.
+    zuerst zum Grab gehen und schauen, ob dort noch alles in Ordnung ist.
   next: {fileID: 0}

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Grab_Introduction
   m_EditorClassIdentifier: 
-  content: "Wo sind denn alle hin? Jemand hat mein Grab aufgemacht und ich habe Nichts
-    gemerkt! Ich h\xE4tte aufwachen m\xFCssen und meine Toten und ihre Beigaben besch\xFCtzen
+  content: "Wo sind denn alle hin? Jemand hat mein Grab aufgemacht und ich habe nichts
+    gemerkt! Ich h\xE4tte aufwachen und meine Toten und ihre Beigaben besch\xFCtzen
     m\xFCssen! Jedoch kann ich Euch trotzdem etwas \xFCber das Grab erz\xE4hlen."
   next: {fileID: 0}

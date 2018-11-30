@@ -11,6 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Turm_Informationen2
   m_EditorClassIdentifier: 
-  content: "Der K\xF6nig Heinrich I. lie\xDF ihn im 10. Jahrhundert bauen als ich
-    noch geschlafen habe, um sein Land gegen Ungarn zu sch\xFCtzen."
+  content: "Der K\xF6nig Heinrich I. lie\xDF ihn im 10. Jahrhundert bauen, als ich
+    noch geschlafen habe, um sein Land gegen \xDCberf\xE4lle aus Ungarn zu sch\xFCtzen."
   next: {fileID: 0}

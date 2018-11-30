@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Spiel2_Anleitung
   m_EditorClassIdentifier: 
-  content: Leider sind die Grabbeigaben nicht mehr hier, dann kann ich sie Dir nicht
-    in echt zeigen. Aber ich kann die Dinge magisch herbei zaubern und Dir zeigen,
-    wie sie ausgesehen haben. Jedoch musst Du mir helfen die Teile zusammensetzen.
+  content: "Leider sind die Grabbeigaben nicht mehr alle hier, dann kann ich sie Dir
+    nicht in echt zeigen. Aber ich kann die Dinge magisch herbeizaubern und Dir zeigen,
+    wie sie ausgesehen haben. Jedoch musst Du mir helfen und die Teile zusammensetzen.\r"
   next: {fileID: 0}

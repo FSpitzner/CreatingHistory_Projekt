@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Name: IntroductionGrab1
   m_EditorClassIdentifier: 
   content: "Komm, wir schauen uns mal um. Die Dinge, zu denen ich Dir etwas erkl\xE4ren
-    kann, lass ich blau schimmern und bei den erkundeten Teilen dieses Ortes lasse
-    ich Blumen f\xFCr Dich wachsen."
+    kann, lass ich orange schimmern und bei den erkundeten Teilen dieses Ortes lasse
+    ich Blumen f\xFCr Dich wachsen. "
   next: {fileID: 11400000, guid: aa7311b8137d54ad4966d540a0ce6608, type: 2}

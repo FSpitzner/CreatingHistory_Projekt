@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Grab_Grabbeigaben
   m_EditorClassIdentifier: 
-  content: "[Grabbeigabe] Fr\xFCher haben die Menschen den Tod anders gesehen. Die
-    Toten sind in die Geisterwelt zu mir \xFCbergegangen. Die Grabbeigaben konnten
-    sie jedoch von der Welt der Lebenden in die der Toten mitnehmen."
+  content: "Fr\xFCher haben die Menschen den Tod anders gesehen. Die Toten sind in
+    die Geisterwelt zu mir \xFCbergegangen. Die Grabbeigaben konnten sie jedoch von
+    der Welt der Lebenden in die der Toten mitnehmen."
   next: {fileID: 0}

@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Karte
   m_EditorClassIdentifier: 
-  content: "Schau mal dort der Punkt in Halle, da ist das Landesmuseum f\xFCr Vorgeschichte.
-    Lass uns dahin gehen und nachschauen, ob meine Statue dort ist. Ich habe ein gutes
-    Gef\xFChl dabei."
+  content: "Schau mal dort, bei dem Punkt in Halle, da ist das Landesmuseum f\xFCr
+    Vorgeschichte. Lass uns dahin gehen und nachschauen, ob meine Statue dort ist.
+    Ich habe ein gutes Gef\xFChl dabei."
   next: {fileID: 0}

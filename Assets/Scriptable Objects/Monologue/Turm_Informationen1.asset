@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Turm_Informationen1
   m_EditorClassIdentifier: 
-  content: "[Informationen zum Turm] Da geht es aber weit runter! Das sind ja fast
-    16 Meter und der Eingang ist bei der H\xE4lfte in 8 Metern H\xF6he. Der Turm ist
-    die Eichst\xE4tter Warte und diente den Menschen zur Abwehr von Feinden."
+  content: "Da geht es aber weit runter! Das sind ja fast 16 Meter und der Eingang
+    ist bei der H\xE4lfte in 8 Meter H\xF6he. Der Turm ist die Eichst\xE4dter Warte
+    und diente den Menschen zur Abwehr von Feinden."
   next: {fileID: 0}

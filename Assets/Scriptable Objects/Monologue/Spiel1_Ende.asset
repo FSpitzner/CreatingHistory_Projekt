@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Spiel1_Ende
   m_EditorClassIdentifier: 
   content: "Die Blumen sind aber sch\xF6n! Sie zeigen meine F\xE4higkeiten, die Natur
-    wachsen zu lassen und sie fruchtbar zu machen."
+    wachsen zu lassen und sie fruchtbar zu machen.\r"
   next: {fileID: 0}

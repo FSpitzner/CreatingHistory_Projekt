@@ -13,5 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "Hier sieht es aber leer und traurig aus. Wir m\xFCssen mal ein paar Blumen
     auf der Wiese wachsen lassen und alles bunter machen. Dem Ganzen hier etwas Leben
-    einhauchen."
+    einhauchen. "
   next: {fileID: 11400000, guid: c093fe3515c4a4c07bf5e4d8fd6a8ce6, type: 2}

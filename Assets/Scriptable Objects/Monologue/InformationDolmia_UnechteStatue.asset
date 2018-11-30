@@ -11,8 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: InformationDolmia_UnechteStatue
   m_EditorClassIdentifier: 
-  content: "[Unechte Statue]Warte mal, das bin ja gar nicht ich. Wieso steht denn
-    hier nicht meine echte Statue? Wir m\xFCssen noch meine echte Statue finden. Kannst
-    Du mir dabei helfen? Man muss hier viel passiert sein, solange ich geschlafen
-    habe."
+  content: "Warte mal, das bin ja gar nicht ich. Wieso steht denn hier nicht meine
+    echte Statue? Wir m\xFCssen noch meine echte Statue finden. Kannst Du mir dabei
+    helfen? Man muss hier viel passiert sein, w\xE4hrend ich geschlafen habe."
   next: {fileID: 0}

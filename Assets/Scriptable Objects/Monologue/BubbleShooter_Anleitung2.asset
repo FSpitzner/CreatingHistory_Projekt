@@ -9,7 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: BubbleShooter_Anleitung3
+  m_Name: BubbleShooter_Anleitung2
   m_EditorClassIdentifier: 
-  content: 
+  content: "Wenn der Ball mal stecken bleibt, dr\xFCcke einfach auf den    Reset-Knopf.
+    Los geht\u2019s!"
   next: {fileID: 0}

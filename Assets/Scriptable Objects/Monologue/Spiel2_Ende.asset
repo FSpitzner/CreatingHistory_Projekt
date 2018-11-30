@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Name: Spiel2_Ende
   m_EditorClassIdentifier: 
   content: "Danke f\xFCr Deine Hilfe. Ich lege die Vase in das Grab, damit die Toten
-    diese in der Geisterwelt nutzen k\xF6nnen."
+    diese in der Totenwelt nutzen k\xF6nnen."
   next: {fileID: 0}

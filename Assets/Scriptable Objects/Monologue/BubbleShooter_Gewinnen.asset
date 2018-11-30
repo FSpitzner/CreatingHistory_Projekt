@@ -11,8 +11,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: BubbleShooter_Gewinnen
   m_EditorClassIdentifier: 
-  content: "Juhu, du hast gewonnen! Endlich k\xF6nnen wir den Turm erkunden und schau
-    mal, was ich gefunden habe! [Karte taucht als Icon auf] Damit k\xF6nnen wir zu
-    meiner Statue reisen und ich komm endlich Heim. Aber zuerst erz\xE4hle ich Dir
-    etwas \xFCber den Turm."
+  content: "Juhu, Du hast gewonnen! Endlich k\xF6nnen wir den Turm erkunden."
   next: {fileID: 0}

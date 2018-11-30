@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   content: "Bei dem \xDCbertritt in die Geisterwelt halfen die hinterbliebenen Freunde
     und Familie dem Verstorbenen. Sie verbrannten die sterblichen \xDCberreste, um
-    der Seele sich beim L\xF6sen vom K\xF6rper zu helfen, und legten die \xDCberreste
-    mit Beigaben danach in das Grab."
+    der Seele beim L\xF6sen vom K\xF6rper zu helfen, und legten die \xDCberreste mit
+    Beigaben danach in das Grab."
   next: {fileID: 0}

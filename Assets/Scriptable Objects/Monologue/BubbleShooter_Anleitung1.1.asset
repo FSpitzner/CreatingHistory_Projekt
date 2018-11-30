@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: BubbleShooter_Anleitung2
+  m_Name: BubbleShooter_Anleitung1.1
   m_EditorClassIdentifier: 
   content: "Ich kann die B\xE4lle erzeugen, aber du musst mir beim Zielen helfen,
-    indem du mich mit Deinem Finger bewegst. Sobald alle Efeubl\xE4tter weg sind,
+    indem Du mich mit Deinem Finger bewegst. Sobald alle Efeubl\xE4tter weg sind,
     k\xF6nnen wir weiter zum Turm."
-  next: {fileID: 0}
+  next: {fileID: 11400000, guid: 106c1b1b45a02d44391ff75f8215f3c1, type: 2}
