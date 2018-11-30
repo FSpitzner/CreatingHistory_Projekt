@@ -36,7 +36,6 @@ public class QuizController : MonoBehaviour {
             answer1ButtonLabel.text = question.GetAnswer(1);
             answer2ButtonLabel.text = question.GetAnswer(2);
             answer3ButtonLabel.text = question.GetAnswer(3);
-            answer4ButtonLabel.text = question.GetAnswer(4);
         }
     }
 
@@ -53,7 +52,6 @@ public class QuizController : MonoBehaviour {
         answer1ButtonLabel.text = nextQuestion.GetAnswer(1);
         answer2ButtonLabel.text = nextQuestion.GetAnswer(2);
         answer3ButtonLabel.text = nextQuestion.GetAnswer(3);
-        answer4ButtonLabel.text = nextQuestion.GetAnswer(4);
     }
 
     public void AnswerGiven(int buttonNumber)
