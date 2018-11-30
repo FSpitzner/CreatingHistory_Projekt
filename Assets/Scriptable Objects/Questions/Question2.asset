@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4110ef089a0a50409b407c43e3533aa, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: 
-  answer1: 
-  answer2: 
-  answer3: 
-  rightAnswer: 0
+  question: "Frage 2:#Wie nennt man eine Dolmeng\xF6ttin auch?"
+  answer1: "Todesg\xF6ttin"
+  answer2: "Wasserg\xF6ttin"
+  answer3: "Mutterg\xF6ttin"
+  rightAnswer: 3

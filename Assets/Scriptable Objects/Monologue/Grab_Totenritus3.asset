@@ -11,5 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Grab_Totenritus3
   m_EditorClassIdentifier: 
-  content: 
+  content: "Sie verbrannten die sterblichen \xDCberreste, um der Seele beim L\xF6sen
+    vom K\xF6rper zu helfen, und legten sie zusammen mit Beigaben Gef\xE4\xDFen und
+    Tontrommeln in das Grab."
   next: {fileID: 0}

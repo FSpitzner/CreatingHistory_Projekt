@@ -11,8 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
   m_Name: Grab_Totenritus2
   m_EditorClassIdentifier: 
-  content: "Bei dem \xDCbertritt in die Geisterwelt halfen die hinterbliebenen Freunde
-    und Familie dem Verstorbenen. Sie verbrannten die sterblichen \xDCberreste, um
-    der Seele beim L\xF6sen vom K\xF6rper zu helfen, und legten die \xDCberreste mit
-    Beigaben danach in das Grab."
-  next: {fileID: 0}
+  content: "In der Bernburger Kultur sah man den Tod als zweite Geburt in die Geisterwelt
+    an. Bei dem \xDCbertritt in die Geisterwelt halfen die hinterbliebenen Freunde
+    und Familie dem Verstorbenen."
+  next: {fileID: 11400000, guid: e437988289feeaa48a875b69c0ac6564, type: 2}

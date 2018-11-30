@@ -9,10 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: Introduction2
+  m_Name: Introduction3
   m_EditorClassIdentifier: 
-  content: "Komm, ich zeig Dir was: Das ist meine Statue. Die Menschen in der Jungsteinzeit
-    haben mich gebeten, ihnen mit der Natur zu helfen. Unter mir ist das Grab, auf
-    das ich f\xFCr die Menschen aufpasse. Darum haben mich die Menschen auch Mutterg\xF6ttin
-    genannt."
-  next: {fileID: 0}
+  content: 'Komm, ich zeig Dir was: Das ist meine Statue. Die Menschen in der Jungsteinzeit
+    haben mich gebeten, ihnen mit der Natur zu helfen.'
+  next: {fileID: 11400000, guid: 00762f4c53c8dc446a028f67faf718b1, type: 2}

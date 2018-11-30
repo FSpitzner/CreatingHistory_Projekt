@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4110ef089a0a50409b407c43e3533aa, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  question: Frage 1:#Mimimimimi
-  answer1: MI!!!
-  answer2: MUU!!!
-  answer3: "M\xC4\xC4\xC4!!"
-  rightAnswer: 3
+  question: "Frage 1:#Welche F\xE4higkeiten hat eine Dolmeng\xF6ttin?"
+  answer1: "Fruchtbarkeit der Erde und Menschen und W\xE4chter der Toten"
+  answer2: Steine wachsen lassen
+  answer3: Manipulation des Wetters
+  rightAnswer: 1
