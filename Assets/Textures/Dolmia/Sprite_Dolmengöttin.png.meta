@@ -8,6 +8,8 @@ TextureImporter:
     21300006: "Sprite_Dolmeng\xF6ttin_3"
     21300008: "Sprite_Dolmeng\xF6ttin_4"
     21300010: "Sprite_Dolmeng\xF6ttin_5"
+    21300012: "Sprite_Dolmeng\xF6ttin_6"
+    21300014: "Sprite_Dolmeng\xF6ttin_7"
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -95,7 +97,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 3072
-        width: 1024
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -104,7 +106,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd1627b22fc9dc40a537f7e17039e4a
+      spriteID: 66586b45fac0d51449262791a62ee50d
       vertices: []
       indices: 
       edges: []
@@ -113,9 +115,9 @@ TextureImporter:
       name: "Sprite_Dolmeng\xF6ttin_1"
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 2048
         y: 3072
-        width: 1024
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,7 +126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54340f800325e6747b1636cf46446beb
+      spriteID: a587a4b323d11c741b76b0f1aa3c427e
       vertices: []
       indices: 
       edges: []
@@ -133,9 +135,9 @@ TextureImporter:
       name: "Sprite_Dolmeng\xF6ttin_2"
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 3072
-        width: 1024
+        x: 0
+        y: 2048
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,7 +146,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffa7c75b97fb50641bfc847ee281559d
+      spriteID: ac0a7f5c13dee064b8d456f3f92f6da2
       vertices: []
       indices: 
       edges: []
@@ -153,9 +155,9 @@ TextureImporter:
       name: "Sprite_Dolmeng\xF6ttin_3"
       rect:
         serializedVersion: 2
-        x: 3072
-        y: 3072
-        width: 1024
+        x: 2048
+        y: 2048
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -164,7 +166,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62be6a97b9bac56489ace91ccfac3c8f
+      spriteID: f40350e9950317d439cae2cfc8de2d59
       vertices: []
       indices: 
       edges: []
@@ -174,8 +176,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2048
-        width: 1024
+        y: 1024
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6df62db434f88c4e85699e2babaf315
+      spriteID: d2f0354eceae82848ae9bfd3ad80f9a9
       vertices: []
       indices: 
       edges: []
@@ -193,9 +195,9 @@ TextureImporter:
       name: "Sprite_Dolmeng\xF6ttin_5"
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 1024
+        x: 2048
+        y: 1024
+        width: 2048
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,7 +206,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fcfc8e6df877043b7b913b28477905
+      spriteID: 629e00b67c26d174c861829900100b4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_Dolmeng\xF6ttin_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2048
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e088b97218aea41af616d966a5cbe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Sprite_Dolmeng\xF6ttin_7"
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 2048
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab7d99e4c7d91448390284b7abc70f
       vertices: []
       indices: 
       edges: []

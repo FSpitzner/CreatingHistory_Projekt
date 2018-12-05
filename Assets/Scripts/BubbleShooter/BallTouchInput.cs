@@ -39,6 +39,7 @@ public class BallTouchInput : MonoBehaviour {
             if (colorsLeft)
             {
                 ball = Instantiate(ballPrefab, transform).GetComponent<Bubble>().CreateNewRandom(remainingColors);
+                ball.gameObject.SetActive(true);
                 line.material.color = ball.GetComponent<Image>().color;
                 manager.DecreaseShots();
             }

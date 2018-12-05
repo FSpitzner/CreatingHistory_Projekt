@@ -126,13 +126,13 @@ public class BubbleShooterManager : MonoBehaviour {
                 {
                     switch (leafs[i][j].GetComponent<Leaf>().color)
                     {
-                        case Leaf.Color.Blue:
+                        case Leaf.Color.Brown:
                             colors[0] = true;
                             break;
                         case Leaf.Color.Green:
                             colors[1] = true;
                             break;
-                        case Leaf.Color.White:
+                        case Leaf.Color.Orange:
                             colors[2] = true;
                             break;
                         case Leaf.Color.Yellow:

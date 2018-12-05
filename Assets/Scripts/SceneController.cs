@@ -31,7 +31,15 @@ public class SceneController : MonoBehaviour
 	#region Unity Event Functions
 	private void OnEnable () 
 	{
-        Invoke("DoStartShit", startDelay);
+        if (firstEncounter)
+        {
+            Invoke("DoStartShit", startDelay);
+        }
+        else if (showBackButtonOnSecEncounter)
+        {
+            backButton.SetActive(true);
+            Debug.Log("Showing back button!");
+        }
 	}
 	#endregion
 	
@@ -54,19 +62,11 @@ public class SceneController : MonoBehaviour
 	#region Private Functions
     private void DoStartShit()
     {
-        if (firstEncounter)
-        {
-            firstEncounter = false;
-            if (firstMonologue != null && firstMonologFinishEvent == null)
-                StartMonologue(firstMonologue);
-            if (firstMonologue != null && firstMonologFinishEvent != null)
-                StartMonologue(firstMonologue, firstMonologFinishEvent);
-        }
-        else if (showBackButtonOnSecEncounter)
-        {
-            backButton.SetActive(true);
-            Debug.Log("Showing back button!");
-        }
+        firstEncounter = false;
+        if (firstMonologue != null && firstMonologFinishEvent == null)
+            StartMonologue(firstMonologue);
+        if (firstMonologue != null && firstMonologFinishEvent != null)
+            StartMonologue(firstMonologue, firstMonologFinishEvent);
     }
 	#endregion
 	

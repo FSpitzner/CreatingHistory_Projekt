@@ -20,8 +20,8 @@ public class Bubble : MonoBehaviour
     [SerializeField] Leaf.Color color;
     [Space]
     [SerializeField] Color greenColor;
-    [SerializeField] Color blueColor;
-    [SerializeField] Color whiteColor;
+    [SerializeField] Color brownColor;
+    [SerializeField] Color orangeColor;
     [SerializeField] Color yellowColor;
     // Private
     private Rigidbody2D rb;
@@ -67,9 +67,9 @@ public class Bubble : MonoBehaviour
         color = (Leaf.Color)UnityEngine.Random.Range(0, Enum.GetValues(typeof(Leaf.Color)).Length);
         switch (color)
         {
-            case Leaf.Color.Blue:
+            case Leaf.Color.Brown:
                 if (remainingColors[0])
-                    image.color = blueColor;
+                    image.color = brownColor;
                 else
                     return CreateNewRandom(remainingColors);
                 break;
@@ -79,9 +79,9 @@ public class Bubble : MonoBehaviour
                 else
                     return CreateNewRandom(remainingColors);
                 break;
-            case Leaf.Color.White:
+            case Leaf.Color.Orange:
                 if (remainingColors[2])
-                    image.color = whiteColor;
+                    image.color = orangeColor;
                 else
                     return CreateNewRandom(remainingColors);
                 break;

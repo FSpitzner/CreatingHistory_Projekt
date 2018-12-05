@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Leaf : MonoBehaviour {
 
-    public enum Color { White, Blue, Green, Yellow }
+    public enum Color { Orange, Brown, Green, Yellow }
     public Color color;
     public int points;
 }

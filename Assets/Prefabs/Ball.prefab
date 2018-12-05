@@ -31,7 +31,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!50 &50274855474177438
 Rigidbody2D:
   serializedVersion: 4
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.05724919, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.050980397, g: 0.25490198, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -203,10 +203,10 @@ MonoBehaviour:
   image: {fileID: 114686410229821876}
   power: 500
   color: 2
-  greenColor: {r: 0, g: 0.6698113, b: 0.0014896393, a: 1}
-  blueColor: {r: 0.02011316, g: 0, b: 0.9150943, a: 1}
-  whiteColor: {r: 0.9528302, g: 0.92136884, b: 0.92136884, a: 1}
-  yellowColor: {r: 0.9774541, g: 1, b: 0.07075471, a: 1}
+  greenColor: {r: 0.050980397, g: 0.25490198, b: 0.007843138, a: 1}
+  brownColor: {r: 0.47450984, g: 0.13725491, b: 0.043137256, a: 1}
+  orangeColor: {r: 1, g: 0.30588236, b: 0, a: 1}
+  yellowColor: {r: 1, g: 0.7254902, b: 0.050980397, a: 1}
 --- !u!222 &222032461820130912
 CanvasRenderer:
   m_ObjectHideFlags: 1
