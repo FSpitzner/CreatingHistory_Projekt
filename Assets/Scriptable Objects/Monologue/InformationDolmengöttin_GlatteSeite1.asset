@@ -9,10 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cb8f08217cda58429302f9b6c90e3c9, type: 3}
-  m_Name: "InformationDolmeng\xF6ttin_GlatteSeite"
+  m_Name: "InformationDolmeng\xF6ttin_GlatteSeite1"
   m_EditorClassIdentifier: 
   content: "W\xE4hrend magischer Br\xE4uche haben die Menschen die Seiten meines Menhirs
     angefasst. Eine Menhirstatue ist im Prinzip ein langer Stein, der aufgestellt
-    wurde. Durch die Br\xE4uche haben die Menschen mich gebeten, die Natur fruchtbarer
-    zu machen und somit mehr Getreide und Fr\xFCchte wachsen zu lassen."
-  next: {fileID: 0}
+    wurde."
+  next: {fileID: 11400000, guid: 2daf933ceb4960849b5dcf8185323521, type: 2}

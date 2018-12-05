@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6c9f5af751a6cb4787187564ddd5687, type: 3}
-  m_Name: "Dolmeng\xF6ttin"
+  m_Name: "Dolmeng\xF6ttin2"
   m_EditorClassIdentifier: 
   content: "Als die Dolmen aufgestellt wurden, glaubten viele Menschen, dass G\xF6tter
     in den Steinen wohnen. Diese G\xF6tter nennt man Dolmeng\xF6ttinnen, sie wurden
@@ -17,3 +17,5 @@ MonoBehaviour:
     der Toten ins Totenreich zu bewachen. Au\xDFerdem lie\xDF sie die Blumen wachsen
     und sorgte daf\xFCr, dass Kinder geboren wurden. H\xE4ufig wurden Bilder der G\xF6ttin
     in die Steine geritzt und nur besonders heilige Priester durften sich ihnen n\xE4hern."
+  previous: {fileID: 11400000, guid: 8a1f487e2c421b6418cbc6c465954826, type: 2}
+  next: {fileID: 0}
