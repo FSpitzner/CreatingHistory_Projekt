@@ -6,6 +6,8 @@ using UnityEngine;
 public class WikiContent : ScriptableObject {
     [TextArea(2,10)]
     public string content;
+    public WikiContent previous;
+    public WikiContent next;
 
     public string GetContent()
     {
