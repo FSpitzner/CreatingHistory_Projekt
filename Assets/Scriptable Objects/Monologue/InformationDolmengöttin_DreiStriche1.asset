@@ -12,7 +12,5 @@ MonoBehaviour:
   m_Name: "InformationDolmeng\xF6ttin_DreiStriche1"
   m_EditorClassIdentifier: 
   content: "Auch andere Dolmeng\xF6ttinnen haben drei Symbole. Viele tragen drei Ketten
-    und ich habe eine Bemalung von drei Strichen im Gesicht. Wusstet Ihr, dass die
-    Zahl Drei eine g\xF6ttliche Zahl ist? Sie steht f\xFCr die Dreifaltigkeit: M\xE4dchen,
-    Mutter und Gro\xDFmutter."
+    und ich habe eine Bemalung von drei Strichen im Gesicht."
   next: {fileID: 11400000, guid: 9340fdce37b2ead42b089c291c08faa5, type: 2}
