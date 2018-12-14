@@ -70,7 +70,7 @@ public class QuizController : MonoBehaviour {
         //Debug.Log("Testing percentage: " + (((float)rightAnswers / (float)(questions.Length))>=correctAnswersPercentNeeded));
         if((float)rightAnswers/(float)(questions.Length) >= correctAnswersPercentNeeded)
         {
-            Debug.Log("Won");
+            LevelManager.instance.StartMonologue(quizWon, quizWonEvent);
         }
         else
         {

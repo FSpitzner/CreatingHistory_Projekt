@@ -11,17 +11,19 @@ public class WikiController : MonoBehaviour {
     public void SetContent(WikiContent wikiContent)
     {
         textfield.text = wikiContent.GetContent();
+        currentContent = wikiContent;
     }
 
     public void Next()
     {
-        if (currentContent.next != null)
+        if (currentContent != null && currentContent.next != null)
             SetContent(currentContent.next);
     }
 
     public void Previous()
     {
-        if (currentContent.previous != null)
+        Debug.Log("Previous = " + currentContent.previous);
+        if (currentContent != null && currentContent.previous != null)
             SetContent(currentContent.previous);
     }
 }

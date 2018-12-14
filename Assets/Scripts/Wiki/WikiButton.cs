@@ -10,7 +10,7 @@ public class WikiButton : MonoBehaviour {
     public EventTrigger eventTrigger;
     public Color enabledColor;
 
-    private void Start()
+    public void Initialize()
     {
         eventTrigger.enabled = false;
     }

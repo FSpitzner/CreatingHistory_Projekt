@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4110ef089a0a50409b407c43e3533aa, type: 3}
   m_Name: Question6
   m_EditorClassIdentifier: 
-  question: Wann kann man die Warte und mich besuchen?
+  question: Frage 6:#Wann kann man die Warte und mich besuchen?
   answer1: An Weihnachten
   answer2: An Ostern
   answer3: An Pfingsten

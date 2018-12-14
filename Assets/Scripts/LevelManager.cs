@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 /// <summary>
 /// 
@@ -13,12 +14,20 @@ public class LevelManager : MonoBehaviour
     public bool mapOptained = false;
     public TMP_Reveal tmpReveal;
     public GameObject monologue;
+    public GameObject fadeout;
+    public WikiButton[] wikiButtons;
 
 
     private void Awake()
     {
         if (instance == null)
             instance = this;
+        fadeout.GetComponent<EventTrigger>().enabled = false;
+        foreach(WikiButton w in wikiButtons)
+        {
+            w.Initialize();
+        }
+
     }
 
     public void StartMonologue(MonologueContent content)

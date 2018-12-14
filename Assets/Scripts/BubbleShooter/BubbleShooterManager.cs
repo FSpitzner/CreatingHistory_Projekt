@@ -25,6 +25,7 @@ public class BubbleShooterManager : MonoBehaviour {
     public GameEvent gameOverEvent;
     public MonologueContent winMonologue;
     public GameEvent winEvent;
+    public bool won = false;
 
     private void Awake()
     {
@@ -148,8 +149,11 @@ public class BubbleShooterManager : MonoBehaviour {
 
     public void Win()
     {
-        if (winMonologue != null && winEvent != null)
+        if (winMonologue != null && winEvent != null && !won)
+        {
             LevelManager.instance.StartMonologue(winMonologue, winEvent);
+            won = true;
+        }
         Debug.Log("Win!");
     }
 
